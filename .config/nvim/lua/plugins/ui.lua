@@ -15,7 +15,7 @@ return {
   {
     "rcarriga/nvim-notify",
     opts = {
-      timeout = 10000,
+      timeout = 3000,
     },
   },
   {
@@ -57,19 +57,19 @@ return {
       })
     end,
   },
-  --bufferline
-  {
-    "akinsho/bufferline.nvim",
-    keys = {
-      { "<TAB>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
-      { "<S-TAB>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
-    },
-    opts = {
-      options = {
-        mode = "tabs",
-        show_buffer_close_icons = false,
-        show_close_icon = false,
-      },
-    },
-  },
+  -- --bufferline
+  -- {
+  --   "akinsho/bufferline.nvim",
+  --   keys = {
+  --     { "<TAB>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
+  --     { "<S-TAB>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
+  --   },
+  --   opts = {
+  --     options = {
+  --       mode = "tabs",
+  --       show_buffer_close_icons = false,
+  --       show_close_icon = false,
+  --     },
+  --   },
+  -- },
 }
